@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Tech Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>College Tech Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are the College Tech Club, a group of passionate individuals dedicated to exploring and advancing technology through events, workshops, and projects.</p>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Tech Talk - Dec 15, 2024</li>
+            <li>Workshop on AI - Jan 20, 2025</li>
+            <li>Hackathon - Feb 25, 2025</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slider">
+            <div class="slides">
+                <img src="generatedHeaderImage-1662578814159.jpg">
+                <img src="istockphoto-939501632-612x612.jpg">
+                <img src="Web-Tech-Talk-June-15-2018-8803.jpg">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <p>Want to join us? Fill out the form below to become a member or participate in our upcoming events:</p>
+        <form id="join-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Join</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 College Tech Club</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
