@@ -1,4 +1,3 @@
-// Image Slider
 let slideIndex = 0;
 
 function showSlides() {
@@ -13,14 +12,12 @@ function showSlides() {
     slides[slideIndex].classList.add('active');
 }
 
-setInterval(showSlides, 3000); // Automatically change slides every 3 seconds
+setInterval(showSlides, 3000);
 
-// Initialize the first slide
 window.onload = function() {
     showSlides();
 };
 
-// Form Validation
 document.getElementById("join-form").addEventListener("submit", function(event) {
     event.preventDefault();
     
